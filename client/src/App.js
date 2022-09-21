@@ -1,7 +1,7 @@
 import React from "react";
 
 // components
-import { VideoPlayer, Sidebar, Notifications } from "./components";
+import { VideoPlayer, Options, Notifications } from "./components";
 
 // MUI
 import { Typography, AppBar } from "@material-ui/core";
@@ -47,9 +47,9 @@ const App = () => {
 
       <VideoPlayer />
 
-      <Sidebar>
+      <Options>
         <Notifications />
-      </Sidebar>
+      </Options>
     </div>
   );
 };
